@@ -1,8 +1,13 @@
+import { useNavigate } from 'react-router-dom'
 import './App.css'
 import { Button } from './components/ui/button'
 import { Input } from './components/ui/input'
+import { ComponentType } from 'react';
 
-function App() {
+
+
+
+function App({navigate}) {
   return (
     <div className='flex justify-center items-center h-screen'>
       <div className='bg-slate-100 w-[300px] p-6 rounded-md shadow-2xl flex flex-col items-center'>
